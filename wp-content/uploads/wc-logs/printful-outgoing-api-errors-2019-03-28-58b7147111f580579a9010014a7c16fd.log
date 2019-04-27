@@ -1,0 +1,30 @@
+2019-03-28T11:52:12+00:00 ERROR Array
+(
+    [request] => Array
+        (
+            [timeout] => 10
+            [user-agent] => Printful WooCommerce Plugin 2.1 (WP 4.9.8 + WC 3.5.7)
+            [method] => GET
+            [headers] => Array
+                (
+                    [Authorization] => Basic cGh2Y21yMTctaHNsZC05OXk5Om0zMHMtamk3bnBjOW1iMWhu
+                )
+
+            [body] => 
+            [path] => https://api.printful.com/sync/variants?external_ids=24
+        )
+
+    [results] => Array
+        (
+            [code] => 401
+            [result] => Unauthorized
+            [error] => Array
+                (
+                    [reason] => Unauthorized
+                    [message] => Unauthorized
+                )
+
+        )
+
+)
+
